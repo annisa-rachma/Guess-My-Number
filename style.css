@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+    background: url(/assets/background.png);
+    background-attachment: fixed;
+    background-size: auto 100%;
+    background-position: center;
+    min-height: 100vh;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Concert One";
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* height: 500px; */
+}
+
+/*----------Home----------*/
+.title img{
+    width: 600px;
+    height: auto;
+}
+.play-button button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    appearance: none;
+}
+.play-button img{
+    width: 200px;
+    height: auto;
+    transition: 0.5s ease;
+    margin-top: 10px;
+}
+.play-button img:hover{
+    transform: scale(1.3);
+}
+
+/*----------Name-Page----------*/
+.player-name img{
+    width: 300px;
+    height: auto;
+}
+.submit-button button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    appearance: none;
+}
+.submit-button img{
+    width: 200px;
+    height: auto;
+    transition: 0.5s ease;
+    margin-top: 10px;
+}
+.submit-button img:hover{
+    transform: scale(1.3);
+}
+.player-input input {
+    border: none;
+    outline: none;
+    background: transparent;
+    padding: 10px;
+    width: 400px;
+    height: 20px;
+    z-index : 10;
+    display: flex;
+    margin-left: 27px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 25px;
+    position: absolute;
+    font-family: "Concert One";
+    color: white;
+    font-size: 25px;
+}
+.player-input img {
+    width: auto;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    z-index : 0;
+}
+::-webkit-input-placeholder { 
+    color: #fff;
+    opacity: 30%
+}
+
+/*----------Name-Page----------*/
