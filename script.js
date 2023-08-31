@@ -59,11 +59,7 @@ document.querySelector(".check").addEventListener("click", function () {
       .querySelector(".popup .try-again")
       .addEventListener("click", function () {
         document.querySelector(".popup").classList.remove("active");
-        score = 20;
-        secretNumber = Math.trunc(Math.random() * 20) + 1;
-        document.querySelector(".guess").value = "";
-        displayMessage("Start guessing...");
-        document.querySelector("#scoreId").textContent = score;
+        window.location.href = "game.html";
       });
 
     document
@@ -87,3 +83,11 @@ document.querySelector(".check").addEventListener("click", function () {
     }
   }
 });
+
+let nameList = JSON.parse(localStorage.getItem("names"));
+let highscoreDisplay = "";
+for (let i = 0; i < Math.min(5, nameList.length); i++) {
+  highscoreDisplay += `${i + 1} ${nameList[i]}: ${nameList[i]}<br>`;
+}
+
+document.querySelector(".leader-board").innerHTML = highscoreDisplay;
