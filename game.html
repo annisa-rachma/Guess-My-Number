@@ -1,71 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Guess My Number</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
     <div class="container">
-        <div class="title-game-page"> 
-            <img src="assets/game-title-text.png" alt="">
+      <div class="title-game-page">
+        <img src="assets/game-title-text.png" alt="" />
+      </div>
+      <div class="game-container">
+        <div class="number"></div>
+        <div class="monster">
+          <img src="assets/monster.gif" alt="" />
         </div>
-        <div class="game-container">
-            <div class="monster">
-                <img src="assets/monster.gif" alt="">
-            </div>
-            <!-- number input -->
-            <div class="number-input-box">
-                <input type="number" id="input-number" placeholder="00">
-                <img src="assets/game-input.png">
-            </div>
-            <!-- check button -->
-            <div class="check-button">
-                <button>
-                    <img src="assets/game-check-button.png" alt="">
-                </button>
-            </div>
-            <!-- score -->
-            <div class="score">
-                <p class="label-score">20</p>
-                <img src="assets/game-score.png">
-            </div>
-            <!-- checking info -->
-            <div class="message">
-                <p class="message">Start guessing...</p>
-                <img src="assets/game-checking-info.png">
-            </div>
+        <!-- number input -->
+        <div class="number-input-box">
+          <input
+            type="number"
+            id="input-number"
+            class="guess"
+            placeholder="00"
+          />
+          <img src="assets/game-input.png" />
         </div>
+        <!-- check button -->
+        <div class="check-button">
+          <button class="check">
+            <img src="assets/game-check-button.png" alt="" />
+          </button>
+        </div>
+        <!-- score -->
+        <div class="score">
+          <p class="label-score" id="scoreId">20</p>
+          <img src="assets/game-score.png" />
+        </div>
+        <!-- checking info -->
+        <div class="message">
+          <p class="message" id="messageId">Start guessing...</p>
+          <img src="assets/game-checking-info.png" />
+        </div>
+        <div class="message2">
+          <p class="message2">nama</p>
+          <img src="assets/game-checking-info.png" />
+        </div>
+      </div>
 
-        <!-- pop up -->
-        <div class="popup">
-            <div class="score-board">
-                <p class="score-akhir">Score: <span>20</span></p> 
-                <div class="leader-board">
-                    <ol>
-                        <li>abcdaaaaaa 20</li>
-                        <li>agwgwaaaaa 17</li>
-                        <li>abcdaaaaaa 15</li>
-                        <li>agwgwaaaaaa 9</li>
-                        <li>abcdaaa 5</li>
-                    </ol>
-                </div>
-                <img src="assets/pop-up.png">
-            </div>
-            <div class="try-again">
-                <button>
-                    <img src="assets/try-again-button.png" alt="">
-                </button>
-            </div>
-            <div class="back-home">
-                <button>
-                    <img src="assets/home-button.png" alt="">
-                </button>
-            </div>
+      <!-- pop up -->
+      <div class="popup">
+        <div class="score-board">
+          <p class="score-akhir">Score: <span id="scoreAkhir">20</span></p>
+          <div class="leader-board">
+            <ol>
+              <li>abcdaaaaaa 20</li>
+              <li>agwgwaaaaa 17</li>
+              <li>abcdaaaaaa 15</li>
+              <li>agwgwaaaaaa 9</li>
+              <li>abcdaaa 5</li>
+            </ol>
+          </div>
+          <img src="assets/pop-up.png" />
         </div>
+        <div class="try-again">
+          <button>
+            <img src="assets/try-again-button.png" alt="" />
+          </button>
+        </div>
+        <div class="back-home">
+          <button>
+            <img src="assets/home-button.png" alt="" />
+          </button>
+        </div>
+      </div>
     </div>
     <script src="script.js"></script>
-</body>
+  </body>
 </html>
