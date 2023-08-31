@@ -329,14 +329,19 @@ body {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin-top: 112px;
+  margin-top: 258px;
   position: absolute;
   font-family: "Concert One";
   color: #fff;
   font-size: 40px;
 }
+.score-board .name{
+    margin-top: 100px;
+    color: #ff6008;
+    font-size: 80px;
+}
 /*-----leader board-----*/
-.score-board .leader-board {
+/* .score-board .leader-board {
   padding: 10px;
   width: 580px;
   height: auto;
@@ -349,7 +354,7 @@ body {
   color: #ff6008;
   font-size: 25px;
   line-height: 35px;
-}
+} */
 /*-----try again button-----*/
 .try-again button {
   background: transparent;
