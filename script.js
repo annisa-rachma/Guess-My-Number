@@ -11,6 +11,11 @@ document.querySelector(".popup .back-home").addEventListener("click", function()
 function simpanNama() { 
     let nama = document.getElementById("input-box").value; // Get the current value from the input element
     
+    if (nama === "") {
+        Swal.fire('Nama harus diisi!'); // Alert if the input box is empty
+        return; // Exit the function without further processing
+    }
+    
     // Retrieve the existing names from local storage
     let savedNames = localStorage.getItem('names');
     
@@ -19,7 +24,9 @@ function simpanNama() {
     
     // Check if the name already exists in the array
     if (namesArray.includes(nama)) {
-        alert("Nama sudah terdaftar!"); // Alert if name already exists
+        // Redirect to game.html even if the name is already registered
+        window.location.href = "game.html";
+        return; // Exit the function without saving the duplicate name
     } else {
         // Add the new name to the array
         namesArray.push(nama);
@@ -27,8 +34,8 @@ function simpanNama() {
         // Save the updated array back to local storage
         localStorage.setItem('names', JSON.stringify(namesArray));
         
-        // Clear the input field for the next name
-        document.getElementById("input-box").value = "";
+        // Redirect to game.html after successful submission
+        window.location.href = "game.html";
     }
 }
 //localStorage.getItem(name);
