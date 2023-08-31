@@ -67,6 +67,8 @@ document.querySelector(".check").addEventListener("click", function () {
       .addEventListener("click", function () {
         window.location.href = "home.html";
       });
+      
+document.querySelector("#nama-popup").textContent = nameList[nameList.length - 1];
 
     // When guess is wrong
   } else if (guess !== secretNumber) {
