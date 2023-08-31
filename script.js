@@ -1,12 +1,3 @@
-// document.querySelector(".check-button").addEventListener("click", function () {
-//   document.querySelector(".popup").classList.add("active");
-// });
-// document
-//   .querySelector(".popup .try-again")
-//   .addEventListener("click", function () {
-//     document.querySelector(".popup").classList.remove("active");
-//   });
-
 //jalan kalau submit diklik
 function simpanNama() {
   let nama = document.getElementById("input-box").value; // Get the current value from the input element
