@@ -4,7 +4,9 @@ document.querySelector(".check-button").addEventListener("click", function(){
 document.querySelector(".popup .try-again").addEventListener("click", function(){
     document.querySelector(".popup").classList.remove("active");
 });
-
+document.querySelector(".popup .back-home").addEventListener("click", function(){
+    window.location.href="home.html"
+});
 //jalan kalau submit diklik
 function simpanNama() { 
     let nama = document.getElementById("input-box").value; // Get the current value from the input element
