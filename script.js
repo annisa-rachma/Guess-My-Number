@@ -9,9 +9,10 @@ function simpanNama() {
   let namesArray = savedNames ? JSON.parse(savedNames) : [];
 
   // Check if the name already exists in the array
-  if (namesArray.includes(nama)) {
-    Swal.fire("Nama Sudah Ada"); // Alert if name already exists
-  } else if (nama === "") {
+  // if (namesArray.includes(nama)) {
+  //   Swal.fire("Nama Sudah Ada"); // Alert if name already exists
+  //} 
+   if (nama === "") {
     Swal.fire("Nama harus diisi!");
   } else {
     // Add the new name to the array
