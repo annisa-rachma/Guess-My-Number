@@ -65,7 +65,7 @@ document.querySelector(".check").addEventListener("click", function () {
     document
       .querySelector(".popup .back-home")
       .addEventListener("click", function () {
-        window.location.href = "home.html";
+        window.location.href = "index.html";
       });
       
 document.querySelector("#nama-popup").textContent = nameList[nameList.length - 1];
