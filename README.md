@@ -17,6 +17,10 @@ Kami membuat sebuah game sederhana yang memungkinkan user untuk menebak angka ra
 - Solution URL: [link](https://github.com/Rocky3235/Guess-My-Number)
 
 ### The challenge
+Step by Step Di Aplikasi Game Yang Bernama Guess My Number :
+- Mententukan Konsep yang mau di kembangkan di Aplikasi Game Guess My Number
+- Berdiskusi menentukan Interface tampilan Aplikasi Games tersebut,
+- Berdiskusi untuk menetukan Alur Chart Games yang di tentukan
 
 Users should be able to:
 
@@ -31,12 +35,3 @@ Game page :
 ![](assets/3-game.PNG)
 Score and leader board :
 ![](assets/4-pop-up.PNG)
-
-
-
-
-
-
-
-
-
