@@ -23,7 +23,7 @@ Step by Step Pembuatan Website Game Yang Bernama Guess My Number :
   
 
 Users should be able to:
-Fungsi dari Aplikasi Games Guess My Number :
+User Manual Penggunaan dari Aplikasi Games Guess My Number :
 - User akan akan masuk ke halaman Home Page
   ![](assets/1-home.PNG)
 - Ketika User akan klik tombol Play 
