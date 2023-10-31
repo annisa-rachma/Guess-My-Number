@@ -30,7 +30,7 @@ User Manual Penggunaan dari Aplikasi Games Guess My Number :
 - User akan diarahkan step berikut ke halaman Input Nama
   ![](assets/2-input-player-name.PNG)
 - Setelah User Input Nama, User akan di arahkan ke halaman selanjutnya ke Halam Game
-  ![](assets/3-game.PNG
+  ![](assets/3-game.PNG)
 - Ketika User sudah menyelesaikan Games tersebut maka akan keular message atau pop up
   yang berisikan Score dan juga akan menampilkan LeaderBoard
   ![](assets/4-pop-up.PNG)
